@@ -19,7 +19,7 @@ const Write = () => {
   const [deposit, onChangeDeposit, setDeposit] = useInput("");
   const [proof, onChangeProof, setProof] = useInput("");
   const [openlink, onChangeOpenlink, setOpenlink] = useInput("");
-  const [people, onChangePeople, setPeople] = useInput("0");
+  const [people, onChangePeople, setPeople] = useInput("");
   const _handleToDoWrite = () => {
     console.log("같이 해요 등록");
   };
@@ -53,7 +53,7 @@ const Write = () => {
         <InputsFormat>
           <div>
             <Text1>인원 수 </Text1>
-            <Text1>{people}명</Text1>
+            <Text1>{people ? people : 0}명</Text1>
           </div>
           <RangeSlide
             id="width"
