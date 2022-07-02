@@ -33,6 +33,7 @@ export const theme = {
     greenDark: `#47624F`,
     greenSub: `#9CBFA7`,
     greenLight: `#C3E5AE`,
-    pink: `#F4BBBB`,
+    pinkLight: `#F4BBBB`,
+    pinkDark: `#F28181`,
   },
 };
