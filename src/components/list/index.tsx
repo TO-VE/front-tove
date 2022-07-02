@@ -4,10 +4,11 @@ const ListElem = () => {
   return (
  
     <ListFormat>
-      <Text>모집중</Text>
-      <Line></Line>
+      <Line>
+        <Text>모집중</Text>
+      </Line>
       <Box>
-        <Title>제목</Title>
+        <Title>제목제목</Title>
         <RowFormat>
           <Text1>작성자</Text1>
           <Text1>분 전</Text1>

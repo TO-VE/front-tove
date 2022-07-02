@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Box = styled.div`
   width: 250px;
   text-align: center;
-  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 0.8rem;
@@ -29,29 +28,29 @@ const ListFormat = styled.div`
   border-radius: 10px;
   justify-items: self-start;
   justify-content: flex-end;
-  align-items: baseline;
-  padding: 0.8rem;
+  align-items: center;
   margin: 20px;
 `;
 
 const RowFormat = styled.div`
-  width: 400px;
+  width: 250px;
   text-align: center;
   display: flex;
   flex-direction: row;
-  justify-items: baseline;
-  justify-content: flex;
+  justify-content: space-around;
   align-items: baseline;
   padding: 0.8rem;
   margin-top: 20px;
 `;
 
 
-const Line = styled.hr`
-  height: '80%';
-  width: 1;
-  color: #000000;
-  margin-left: 50px;
+const Line = styled.div`
+  width: 150px;
+  height: 70px;
+  text-align: center;
+  border-right: solid #000000 1.5px;
+  padding: 2.0rem;
+  margin: 10px;
 `;
 
 

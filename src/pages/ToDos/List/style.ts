@@ -37,7 +37,7 @@ const ListFormat = styled.div`
   display: flex;
   flex-direction: row;
   border: solid #000000 1px;
-  border-radius: 10px;
+  border-radius: 20px;
   justify-items: self-start;
   justify-content: flex-end;
   align-items: baseline;
@@ -56,16 +56,6 @@ const RowFormat = styled.div`
   margin-top: 20px;
 `;
 
-
-const Line = styled.hr`
-  border-left: 6px #000000;
-  height: 500px;
-`;
-
-
-const ListBox = styled.div`
-
-`;
 
 const Text = styled.span`
   font-size: ${({ theme }) => theme.fonts.size.regular};
@@ -95,5 +85,5 @@ const Text1 = styled.span`
   padding: 0 0.8rem;
 `;
 
-export { StyledFormat, Box, StyledBox, ListFormat, RowFormat, Line, ListBox, Text, Time, Title, Text1}
+export { StyledFormat, Box, StyledBox, ListFormat, RowFormat, Text, Time, Title, Text1}
 
