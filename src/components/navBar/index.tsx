@@ -5,17 +5,16 @@ import { StyledRoot, Text } from "./style";
 const NavBar = () => {
   return (
     <StyledRoot>
-      <Text>네비게이션</Text>
       <Link to="/">
-        <span>오늘 기록</span>
+        <Text>오늘 기록</Text>
       </Link>
       <Link to="/tobuy/list">
-        <span>같이 사요</span>
+        <Text>같이 사요</Text>
       </Link>
       <Link to="/todo/list">
-        <span>같이 해요</span>
+        <Text>같이 해요</Text>
       </Link>
-      <span>로그아웃</span>
+      <Text>로그아웃</Text>
     </StyledRoot>
   );
 };

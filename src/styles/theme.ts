@@ -7,7 +7,7 @@ const fonts = {
     regular: "1.6rem",
     small: "1.3rem",
   },
-  wieght: {
+  weight: {
     bold: 700,
     medium: 500,
     regular: 400,
