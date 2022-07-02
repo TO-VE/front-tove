@@ -1,18 +1,21 @@
-import { StyledBox, Text, Title } from './style';
-import Input from 'components/input';
-import useInput from 'hooks/useInput';
-import { StyledButton } from 'components';
-import { theme } from 'styles/theme';
-import { Link } from 'react-router-dom';
+import { StyledBox, Box, ListFormat, RowFormat, Line, Text, Title, Text1} from './style';
 
-const listElem = () => {
-    return (
-    <StyledBox>
-        <Text>모집중</Text>
+const ListElem = () => {
+  return (
+ 
+    <ListFormat>
+      <Text>모집중</Text>
+      <Line></Line>
+      <Box>
         <Title>제목</Title>
-        <Text>작성자</Text>
-    </StyledBox>
-    );
+        <RowFormat>
+          <Text1>작성자</Text1>
+          <Text1>분 전</Text1>
+        </RowFormat>
+      </Box>
+    </ListFormat>
+  );
 };
 
-export default listElem;
+
+export default ListElem;

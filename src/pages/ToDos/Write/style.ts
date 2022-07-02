@@ -34,6 +34,16 @@ align-items: baseline;
 padding: 0.8rem;
 `;
 
+const registerBtn = styled.div`
+width: 100px;
+text-align: center;
+background-color: white;
+border: solid #00462A 1.5px;
+border-radius: 10px;
+box-shadow: -1px 1px 1px grey;
+padding: 0.8rem;
+margin-bottom: 20px;
+`;
 
 const Text = styled.span`
   font-size: ${({ theme }) => theme.fonts.size.regular};
@@ -49,4 +59,4 @@ color: ${({ theme }) => theme.black};
 padding: 0 0.8rem;
 `;
 
-export { StyledFormat, StyledBox, InputsFormat, Text, Text1 };
+export { StyledFormat, StyledBox, InputsFormat, registerBtn, Text, Text1 };

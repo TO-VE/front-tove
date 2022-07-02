@@ -1,4 +1,4 @@
-import { StyledBox, StyledFormat, InputsFormat, Text, Text1 } from './style';
+import { StyledBox, StyledFormat, InputsFormat, registerBtn, Text, Text1 } from './style';
 import Input from 'components/input';
 import useInput from 'hooks/useInput';
 import { StyledButton } from 'components';
@@ -68,13 +68,9 @@ const Write = () => {
       />
     </InputsFormat> 
     <Link to="/todo/admin">
-      <StyledButton
-            fontColor={theme.light.greenDark}
-            fontSize={theme.light.fonts.size.regular}
-            fontWeight={theme.light.fonts.weight.bold}
-            backgroundColor={theme.light.white}
-            title="등록하기"
-          />
+      <StyledBox>
+        <Text>등록하기</Text>
+      </StyledBox>
     </Link>
   </StyledFormat>;
 };
