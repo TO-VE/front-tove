@@ -16,14 +16,12 @@ const fonts = {
 };
 
 const borders = {
-  ligth: "1.0rem",
+  light: "1.0rem",
   hard: "2.0rem",
 };
 
 export const theme = {
-  dark: {
-    //다크 모드 개발 x
-  },
+  dark: {},
   light: {
     fonts,
     borders,
@@ -37,5 +35,4 @@ export const theme = {
     greenLight: `#C3E5AE`,
     pink: `#F4BBBB`,
   },
-  response: {},
 };

@@ -1,6 +1,9 @@
 import { StyledBox, StyledFormat, InputsFormat, Text, Text1 } from './style';
 import Input from 'components/input';
 import useInput from 'hooks/useInput';
+import { StyledButton } from 'components';
+import { theme } from 'styles/theme';
+import { Link } from 'react-router-dom';
 
 const Write = () => {
   const [title, onChangeTitle, setTitle] = useInput("");
@@ -64,7 +67,15 @@ const Write = () => {
         onChange={onChangeOpenlink}
       />
     </InputsFormat> 
-
+    <Link to="/todo/admin">
+      <StyledButton
+            fontColor={theme.light.greenDark}
+            fontSize={theme.light.fonts.size.regular}
+            fontWeight={theme.light.fonts.weight.bold}
+            backgroundColor={theme.light.white}
+            title="등록하기"
+          />
+    </Link>
   </StyledFormat>;
 };
 
