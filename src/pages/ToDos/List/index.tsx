@@ -1,5 +1,14 @@
+import { StyledBox, StyledFormat, Text} from './style';
+
+
 const List = () => {
-  return <div>TodoList</div>;
+  return <StyledFormat>
+    <StyledBox>
+        <Text>같이 해요</Text>
+    </StyledBox>
+
+
+  </StyledFormat>
 };
 
 export default List;
