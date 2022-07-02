@@ -2,7 +2,6 @@ import { theme } from "styles/theme";
 
 export const state = {
   Flexitarian: `${theme.light.mint}`,
-
   Pollo: `${theme.light.yellow}`,
   Pesco: `${theme.light.gray}`,
   "Lacto Ovo": `${theme.light.pinkLight}`,
