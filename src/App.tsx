@@ -1,10 +1,9 @@
 import GlobalStyle from "styles/global";
 import { ThemeProvider } from "styled-components";
 import { theme } from "styles/theme";
-import { NavBar } from "components";
+import { NavBar, Logo } from "components";
 import { BrowserRouter as Router } from "react-router-dom";
 import AppRouter from "AppRoter";
-import Logo from "components/logo";
 
 function App() {
   return (
