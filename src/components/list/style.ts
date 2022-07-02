@@ -21,7 +21,7 @@ const StyledBox = styled.div`
 
 const ListFormat = styled.div`
   width: 400px;
-  text-align: center;
+  vertical-align: middle;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -31,7 +31,7 @@ const ListFormat = styled.div`
   justify-content: flex-end;
   align-items: baseline;
   padding: 0.8rem;
-  margin-top: 20px;
+  margin: 20px;
 `;
 
 const RowFormat = styled.div`
@@ -48,13 +48,15 @@ const RowFormat = styled.div`
 
 
 const Line = styled.hr`
+  height: '80%';
+  width: 1;
   color: #000000;
   margin-left: 50px;
 `;
 
 
 const Text = styled.span`
-  font-size: ${({ theme }) => theme.fonts.size.regular};
+  font-size: ${({ theme }) => theme.fonts.size.medium};
   font-weight: ${({ theme }) => theme.fonts.weight.bold};
   color: ${({ theme }) => theme.greenDark};
   padding: 0 0.8rem;
@@ -76,7 +78,7 @@ const Title = styled.span`
 
 const Text1 = styled.span`
   font-size: ${({ theme }) => theme.fonts.size.small};
-  font-weight: ${({ theme }) => theme.fonts.weight.light};
+  font-weight: ${({ theme }) => theme.fonts.weight.regular};
   color: ${({ theme }) => theme.black};
   padding: 0 0.8rem;
 `;

@@ -9,6 +9,7 @@ const StyledFormat = styled.section`
   padding: 0.8rem;
   margin-bottom: 0.8rem;
 `;
+
 const Box = styled.div`
   width: 250px;
   text-align: center;
@@ -57,8 +58,8 @@ const RowFormat = styled.div`
 
 
 const Line = styled.hr`
-  color: #000000;
-  margin-left: 50px;
+  border-left: 6px #000000;
+  height: 500px;
 `;
 
 
