@@ -8,7 +8,7 @@ type InputProps = {
   onChange: React.ChangeEventHandler<HTMLInputElement>;
 };
 
-const Input: React.FC<InputProps> = ({
+const StyledInput: React.FC<InputProps> = ({
   name,
   id,
   placeholder,
@@ -29,4 +29,4 @@ const Input: React.FC<InputProps> = ({
   );
 };
 
-export default Input;
+export default StyledInput;
