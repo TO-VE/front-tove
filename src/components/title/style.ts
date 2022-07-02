@@ -10,6 +10,7 @@ const StyledRoot = styled.span<TitleStyleProps>`
   color: ${(props) => props.fontColor};
   font-size: ${(props) => props.fontSize};
   font-weight: ${({ theme }) => theme.fonts.weight.bold};
+  background-color: ${({ theme }) => theme.white};
   border-radius: ${(props) => props.borderRadius};
   padding: 0.8rem;
   width: fit-content;
