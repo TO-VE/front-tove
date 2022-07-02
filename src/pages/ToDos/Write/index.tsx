@@ -9,9 +9,6 @@ import {
 } from "./style";
 import Input from "components/input";
 import useInput from "hooks/useInput";
-import { StyledButton } from "components";
-import { theme } from "styles/theme";
-import { Link } from "react-router-dom";
 
 const Write = () => {
   const [title, onChangeTitle, setTitle] = useInput("");

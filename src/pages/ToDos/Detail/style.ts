@@ -8,7 +8,7 @@ const StyledRoot = styled.div`
   justify-items: center;
 `;
 
-const InputContainer = styled.section`
+const InfoContainer = styled.section`
   background-color: white;
   border: solid #47624f 1.5px;
   border-radius: 20px;
@@ -22,24 +22,13 @@ const InputContainer = styled.section`
 `;
 
 const StyledBox = styled.div`
-  width: 100px;
   text-align: center;
   background-color: white;
   border: solid #00462a 1.5px;
   border-radius: 10px;
   box-shadow: -1px 1px 1px grey;
-  padding: 0.8rem;
   margin-bottom: 20px;
-`;
-
-const InputsFormat = styled.div`
-  width: 40rem;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.8rem 0;
+  padding: 0.8rem;
 `;
 
 const Text = styled.span`
@@ -48,22 +37,42 @@ const Text = styled.span`
   color: ${({ theme }) => theme.greenDark};
 `;
 
+const InfoFormat = styled.div`
+  width: 40rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.8rem 0;
+`;
+
 const Text1 = styled.span`
   font-size: ${({ theme }) => theme.fonts.size.regular};
   font-weight: ${({ theme }) => theme.fonts.weight.bold};
+  color: ${({ theme }) => theme.greenDark};
+  padding: 0.8rem 0;
+`;
+
+const DetailText = styled.p`
+  font-size: ${({ theme }) => theme.fonts.size.small};
+  font-weight: ${({ theme }) => theme.fonts.weight.regular};
   color: ${({ theme }) => theme.black};
 `;
 
-const RangeSlide = styled.input`
-  width: 25rem;
+const TagBox = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.6rem;
 `;
 
 export {
   StyledRoot,
-  InputContainer,
+  InfoContainer,
   StyledBox,
-  InputsFormat,
   Text,
-  RangeSlide,
+  InfoFormat,
   Text1,
+  DetailText,
+  TagBox,
 };
