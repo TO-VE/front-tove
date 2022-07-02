@@ -1,10 +1,12 @@
-{
-  /*import { theme } from 'styles/theme';
+import { theme } from "styles/theme";
 
 export const state = {
-  Flexitarian: "(max-width:767px)",
-  tablet: "(min-width:768px) and (max-width: 1023px)",
-  desktop: "(min-width:1024px)",
+  Flexitarian: `${theme.light.mint}`,
+
+  Pollo: `${theme.light.yellow}`,
+  Pesco: `${theme.light.gray}`,
+  "Lacto Ovo": `${theme.light.pinkLight}`,
+  Lacto: `${theme.light.greenLight}`,
+  Vegan: `${theme.light.pinkDark}`,
+  NonVegan: `${theme.light.greenSub}`,
 };
-*/
-}
