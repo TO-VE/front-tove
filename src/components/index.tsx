@@ -4,3 +4,6 @@ export { default as StyledButton } from "./button";
 export { default as StyledTitle } from "./title";
 export { default as FoodContainer } from "./food";
 export { default as Logo } from "./logo";
+export { default as Bedge } from "./mainlog/bedge";
+export { default as Diet } from "./mainlog/diet";
+export { default as Carbon } from "./mainlog/carbon";
