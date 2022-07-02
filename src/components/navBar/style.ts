@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
 const StyledRoot = styled.section`
-  background-color: ${({ theme }) => theme.pink};
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.8rem;
 `;
-const Text = styled.p`
-  font-size: ${({ theme }) => theme.fonts.size.large};
-  font-weight: ${({ theme }) => theme.fonts.wieght.bold};
+const Text = styled.span`
+  font-size: ${({ theme }) => theme.fonts.size.regular};
+  font-weight: ${({ theme }) => theme.fonts.weight.small};
+  color: ${({ theme }) => theme.greenDark};
+  padding: 0 0.8rem;
 `;
 
 export { StyledRoot, Text };
